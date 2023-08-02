@@ -1,0 +1,52 @@
+/* Add custom CSS for the scrolling effect */
+
+
+  
+  .reviews-container {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 200px; /* Set a fixed height to create a centered view */
+  }
+  
+  .reviews-content {
+    display: flex;
+    animation: scrollReviews 20s linear infinite;
+  }
+  
+  .review-card {
+    flex: 0 0 33.3333%;
+    padding: 0 10px;
+  }
+  
+  /* Scroll from left to right */
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Scroll from right to left */
+  @keyframes scrollRight {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  /* Apply animation based on scrollDirection */
+  .reviews-content.left {
+    animation: scrollLeft 20s linear infinite;
+  }
+  
+  .reviews-content.right {
+    animation: scrollRight 20s linear infinite;
+  }
+  

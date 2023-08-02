@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+/* Add custom CSS for the scrolling effect */
+
+.reviews-container {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 200px; /* Set a fixed height to create a centered view */
+}
+
+.reviews-content {
+  display: flex;
+  animation: scrollLeft 10s linear infinite;
+}
+
+.review-card {
+  flex: 0 0 33.3333%;
+  padding: 0 10px;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* Add custom CSS for the scrolling effect */
+
+@keyframes scrollReviews {
+  0%, 100% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+}

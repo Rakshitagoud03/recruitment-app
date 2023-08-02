@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .hero-section {
+    background-color: #f7f7f7;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .hero-section button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .hero-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .about-section {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .services-section {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .services-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .services-section p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .contact-section {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-section form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-section form label {
+    font-weight: bold;
+  }
+  
+  .contact-section form input,
+  .contact-section form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-section form textarea {
+    resize: vertical;
+  }
+  
+  .contact-section form button,.demo {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .contact-section form button:hover {
+    background-color: #0056b3;
+  }
+  
